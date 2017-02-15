@@ -54,7 +54,7 @@
                                               <td><a href="http://localhost:8888/{{$file->file_path}}">Attachments</a></td>
                                             @endif
                                           @endforeach
-                                           <td><a href="{{changeApprovedStatus($form->id)}}" class="btn btn-success btn-lg"> Approve </a></td>
+                                           <td><a href="" class="btn btn-success btn-lg"> Approve </a></td>
                                        </tr>
                                       @endforeach
                                    </tbody>
